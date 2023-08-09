@@ -3,7 +3,7 @@ class Particle {
         this.x = x;
         this.y = y;
         this.size = 6;
-        this.color = 'black';
+        this.color = 'white';
     }
 
     draw(ctx) {
