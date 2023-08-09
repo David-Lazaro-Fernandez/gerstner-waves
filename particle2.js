@@ -34,7 +34,7 @@ function drawWave(t) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   for (let a = 0; a <= 100; a += 0.5) {
-    for (let b = -.3; b >= -2; b += -0.8) {
+    for (let b = -.3; b >= -2; b += -0.2) {
       const x = X(a, b, t) * 50 ;
       const y = (canvas.height/2) -Y(a, b, t) * 50 ;
       const particle = new Particle(x, y);
